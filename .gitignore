@@ -1,6 +1,13 @@
+# local/build artifacts
 backup/
-**/xcuserdata/
-*.xcuserstate
+.derivedData-vscode/
 DerivedData/
 .build/
+*.app/
+*.xcuserstate
+**/xcuserdata/
 .DS_Store
+
+# optional local sandbox
+TestCode/
+LangSwitch 2026-03-09 20-07-21/
