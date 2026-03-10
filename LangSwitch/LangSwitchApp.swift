@@ -337,6 +337,9 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         if name.contains("emoji") || name.contains("symbols") {
             return true
         }
+        if id.contains("dictation") || name.contains("dictation") {
+            return true
+        }
         return false
     }
 
